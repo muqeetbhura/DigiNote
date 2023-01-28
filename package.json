@@ -13,7 +13,7 @@
     "dev": "concurrently \"npm run client\" \"npm run server\" ",
     "heroku-postbuild": "cd client && npm install && npm run build"
   },
-  "author": "Umer Kazi",
+  "author": "Muqeet Bhura",
   "license": "ISC",
   "dependencies": {
     "axios": "^0.21.1",
