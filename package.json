@@ -6,8 +6,6 @@
   "scripts": {
     "start": "node server.js",
     "server": "nodemon server.js",
-    git rm package-lock.json
-    git push heroku master
     "client": "cd client && npm run start",
     "client-install": "cd client && npm install",
     "server-install": "npm install",
