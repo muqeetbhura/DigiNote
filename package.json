@@ -4,7 +4,7 @@
   "description": "A note taking web application",
   "main": "server.js",
   "scripts": {
-    "start": "node server.js",
+    "start": "next --openssl-legacy-provider start"
     "server": "nodemon server.js",
     "client": "cd client && npm run start",
     "client-install": "cd client && npm install",
